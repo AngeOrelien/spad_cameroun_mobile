@@ -1,0 +1,130 @@
+# -------------------------------------------------------------------------
+# Flutter / Dart / Pub
+# -------------------------------------------------------------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+.packages
+.packages.swp
+**/doc/api/
+pubspec.lock
+
+# Fichiers générés (Freezed, JSON Serializable, Protobuf)
+*.g.dart
+*.freezed.dart
+*.pb.dart
+*.pbenum.dart
+*.pbserver.dart
+*.pbjson.dart
+
+# -------------------------------------------------------------------------
+# Android
+# -------------------------------------------------------------------------
+android/.gradle/
+android/local.properties
+android/captures/
+android/.idea/
+android/*.iml
+android/app/*.iml
+android/key.properties
+android/gradlew
+android/gradlew.bat
+android/gradle/
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+/android/build/
+*.jks
+*.keystore
+
+# -------------------------------------------------------------------------
+# Windows (Flutter & Visual Studio)
+# -------------------------------------------------------------------------
+windows/flutter/ephemeral/
+windows/flutter/generated_plugins.cmake
+windows/flutter/generated_version.rc
+/windows/build/
+/windows/out/
+/windows/.vs/
+.vs/
+.vsconfig
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.sln
+bin/
+obj/
+*.pdb
+*.dll
+*.exe
+
+# -------------------------------------------------------------------------
+# Web
+# -------------------------------------------------------------------------
+/build/web/
+/web/dart_service_worker.js
+/web/main.dart.js
+/web/main.dart.js.map
+/web/main.dart.unoptimized.js
+/web/main.dart.unoptimized.js.map
+
+# -------------------------------------------------------------------------
+# Autres plateformes (macOS / iOS / Linux)
+# -------------------------------------------------------------------------
+/ios/Pods/
+/ios/.symlinks/
+/ios/.generated/
+/ios/Flutter/ephemeral/
+/ios/Flutter/.last_build_id
+/ios/Flutter/Flutter.podspec
+/ios/Flutter/Flutter.framework
+/macos/Pods/
+/macos/.symlinks/
+/macos/Flutter/Flutter.podspec
+/macos/Flutter/Flutter.framework
+/linux/flutter/generated_plugins.cmake
+/linux/build/
+
+# -------------------------------------------------------------------------
+# IDEs & Editeurs
+# -------------------------------------------------------------------------
+# VS Code
+.vscode/
+.vscode_extensions/
+*.code-workspace
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# -------------------------------------------------------------------------
+# Divers & Environnement
+# -------------------------------------------------------------------------
+.env
+.env.local
+.env.*.local
+
+.DS_Store
+*.log
+*.swp
+*.swo
+*.tmp
+*.temp
+.cache/
+.history
+.atom/
+.buildlog/
+migrate_working_dir/
+
+# Obfuscation & Symbolication
+app.*.symbols
+app.*.map.json
